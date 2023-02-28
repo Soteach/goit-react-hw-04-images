@@ -13,4 +13,20 @@ const ImageGalleryList = styled.ul`
   margin-right: auto;
 `;
 
-export { ImageGalleryList };
+const GalleryHeader = styled.h1`
+  text-align: center;
+`;
+
+const ErrorBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+`;
+
+const ErrorMessage = styled.h2`
+  color: red;
+`;
+
+export { ImageGalleryList, GalleryHeader, ErrorBox, ErrorMessage };
