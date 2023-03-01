@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
+
 import { Overlay, ModalWindow } from './Modal.styled';
 
 const modalRoot = document.querySelector('#root-modal');
